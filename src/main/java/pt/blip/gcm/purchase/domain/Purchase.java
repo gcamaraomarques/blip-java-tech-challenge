@@ -1,7 +1,6 @@
 package pt.blip.gcm.purchase.domain;
 
-import java.time.LocalDateTime;
-import java.time.OffsetDateTime;
+import java.util.Date;
 
 /**
  * Created by gcamaraomarques on 2/7/16.
@@ -9,7 +8,7 @@ import java.time.OffsetDateTime;
 public class Purchase {
     private Long id;
     private String productType;
-    private OffsetDateTime expires;
+    private Date expires;
     private Details purchaseDetails;
 
     public Long getId() {
@@ -28,11 +27,11 @@ public class Purchase {
         this.productType = productType;
     }
 
-    public OffsetDateTime getExpires() {
+    public Date getExpires() {
         return expires;
     }
 
-    public void setExpires(OffsetDateTime expires) {
+    public void setExpires(Date expires) {
         this.expires = expires;
     }
 
