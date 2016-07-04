@@ -1,11 +1,7 @@
 package pt.blip.gcm.purchase.repository;
 
 import pt.blip.gcm.purchase.domain.Purchase;
-import pt.blip.gcm.purchase.exception.PurchaseException;
 import pt.blip.gcm.purchase.exception.PurchaseGenericException;
-import pt.blip.gcm.purchase.exception.PurchaseNotFoundException;
-
-import java.time.OffsetDateTime;
 
 /**
  * Created by gcamaraomarques on 2/7/16.
